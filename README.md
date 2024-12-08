@@ -1,6 +1,4 @@
-Here’s a **README.md** file for your GitHub repository. This file includes instructions for cloning, running, and contributing to your project:
 
----
 
 # **Pixel Adventure: A 2D Platformer Game**  
 
@@ -33,7 +31,7 @@ Follow these steps to clone and run the project locally:
 
 1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/<YourUsername>/Pixel-Adventure.git
+   git clone https://github.com/Puneethkrishna-2003/Pixel-Adventure.git
    cd Pixel-Adventure
    ```
 
@@ -63,6 +61,7 @@ Follow these steps to clone and run the project locally:
   - `game.js`: Main game loop and overall logic.  
 - **`assets/`**: Contains images, sprites, and audio used in the game.  
 - **`levels/`**: JSON files with level data.  
+- **AS ON.....**: Many more.  
 
 ---
 
@@ -93,11 +92,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## **Contact**  
 - **Puneeth Krishna S Rakunde**  
-  Email: [your-email@example.com]  
-  GitHub: [YourUsername](https://github.com/YourUsername)  
+  Email: [rspuneeth30@gmail.com ]  
+  GitHub: [Puneethkrishna-2003](https://github.com/Puneethkrishna-2003)  
 
 Feel free to reach out for questions, suggestions, or collaboration!  
 
 ---
-
-This README is designed to provide clarity and ease of use for others who want to clone or contribute to your project. Let me know if you'd like any modifications or additional details!

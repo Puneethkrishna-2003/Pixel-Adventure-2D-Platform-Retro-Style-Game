@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'PixelFont';
+    src: url('..\/assets\/fonts\/pixel_font.ttf');
+    font-weight: 1000;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    font-family:'PixelFont';
+    overflow: hidden;
+
+    h1{
+        padding-bottom: 3vh;
+        font-weight: 300;
+    }
+}
+
+
+canvas{
+    width: 80%;
+    border: 2px solid black;
+}
+
+.innerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.startbtn{
+    position: absolute;
+
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: rgb(0, 0, 0) 2px solid;
+    font-family: PixelFont;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.startbtn:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    scale: 0.95;
+    transition: all ease 0.5s;
+}
+
+.pausebtn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: white 2px solid;
+    font-family: PixelFont;
+    color: white;
+    font-size: 3vh;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    display: none;
+}
+
+.pausebtn:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    scale: 0.95;
+    transition: all ease 0.5s;
+}
+
+.resumebtn{
+    position: absolute;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: white 2px solid;
+    font-family: PixelFont;
+    color: white;
+    font-size: 0.7vh;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    display: none;
+}
+
+.resumebtn:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    scale: 0.95;
+    transition: all ease 0.5s;
+}

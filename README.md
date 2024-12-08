@@ -87,6 +87,7 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## **License**  
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ---
 
